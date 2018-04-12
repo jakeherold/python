@@ -27,7 +27,9 @@ timey = stationResult['timestamp']
 
 # Get basic info about when the ISS will pass over a specific place and time in the future
 passUrl = 'http://api.open-notify.org/iss-pass.json'
-passUrlWithCoords = passUrl + '?lat=' + str(lat) + '&lon=' + str(lon)
+jakeLat = 45.4824777
+jakeLon = -122.7356999
+passUrlWithCoords = passUrl + '?lat=' + str(jakeLat) + '&lon=' + str(jakeLon)
 passResponse = urllib.request.urlopen(passUrlWithCoords)
 passResult = json.loads(passResponse.read())
 passOverTime = passResult['response'][1]['risetime']
