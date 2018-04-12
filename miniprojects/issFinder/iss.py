@@ -1,3 +1,4 @@
+#!/bin/python3
 # International Space Station Finder
 # A mini-project for fun and no profit
 # Created by Jake Herold
@@ -7,9 +8,13 @@
 
 # Modules
 
-import requests
+import urllib.request
+import json
 
-
+url = 'http://api.open-notify.org/astros.json'
+response = urllib.request.urlopen(url)
+result = json.loads(response.read())
+print(result)
 
 
 
