@@ -3,12 +3,13 @@
 A list of miniature projects to help me practice python. Because, we've all gotta have goals. 
 
 * ~~ISS tracker~~
+
 ....* Uses APIs to pull data down about the ISS's current crew, location, and when it'll pass over. 
 ....* Done! See https://github.com/jakeherold/python/tree/master/miniprojects/issFinder
 
 * D&D Dice Roller
 
-....* Simple rolling tool with which dice type to roll, and how many of them. 
+\t* Simple rolling tool with which dice type to roll, and how many of them. 
 ....* Should take inputs of the "dX" number (d6, d10, d12, etc) and dice count.
 ....* Will output individual rolls, as well as the sum total
 ....* To be expanded upon or utilized in some kind of D&D DM tool (because in for a nerd penny, in for a nerd pound, right?).
