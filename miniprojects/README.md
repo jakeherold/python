@@ -10,9 +10,9 @@ A list of miniature projects to help me practice python. Because, we've all gott
 * D&D Dice Roller
 
 \t* Simple rolling tool with which dice type to roll, and how many of them. 
-....* Should take inputs of the "dX" number (d6, d10, d12, etc) and dice count.
-....* Will output individual rolls, as well as the sum total
-....* To be expanded upon or utilized in some kind of D&D DM tool (because in for a nerd penny, in for a nerd pound, right?).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Should take inputs of the "dX" number (d6, d10, d12, etc) and dice count.
+    ....* Will output individual rolls, as well as the sum total
+        ....* To be expanded upon or utilized in some kind of D&D DM tool (because in for a nerd penny, in for a nerd pound, right?).
 
 * Hangman
 ....* Should have a decent visual depiction in ASCII art (because I've never done that and wanna try)
