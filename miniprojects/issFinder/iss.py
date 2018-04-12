@@ -36,13 +36,12 @@ passOverTime = passResult['response'][1]['risetime']
 
 print("The " + str(astroResult['number']) + " astronauts presently in space are: ")
 for i, item in enumerate(astroResult['people']):
-    print("\t" + item['name'] + "is currently on the " + item['craft'])
+    print("\t" + item['name'] + " (" + item['craft'] + ")")
 
-print("lat is: " + lat)
-print("lon is: " + lon)
-print("time is: " + str(timey))
+print("The ISS's latitude is currently: " + lat)
+print("The ISS's longitude is currently: " + lon)
 
-print(time.ctime(passOverTime))
+print("ISS passes Portland, OR at: " + time.ctime(passOverTime))
 
 
 
