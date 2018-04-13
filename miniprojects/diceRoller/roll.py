@@ -6,10 +6,20 @@
 #
 # Version 0.0.1
 
+# Modules
 import random
 import sys
 
+# Remove program name from input and assign arguements to an array
+program_name = sys.argv[0]
+arguments = sys.argv[1:]
 
-
-for x in range(10):
-  print(random.randint(1,101))
+for arg in arguments:
+    total = 0
+    numberList = []
+    for _ in range(int(arg.split('d')[0])):
+        num = random.randint(1,int(arg.split('d')[1]))
+        total += num
+        numberList.append(num)
+    print("Your " + arg + " results were: " + str(numberList))
+    print("The total is: " + str(total) + "\n")
