@@ -14,3 +14,7 @@
 3. Ubuntu Subsystem for Windows 10 (USW) requires you to specify python3, because Linux currently defaults to python 2. Notably, this is being changed in some of the new distro version releases. (Shoutout to Michael Adkins on that account)
 4. Trying to get USW to run git commands once you've turned on 2-factor is difficult. Investing in SSH key configurations is well worth your time. 
 5. Drink plenty of water. 
+
+###To-do
+1. Logic-check user input
+2. Handle errors more gracefully
