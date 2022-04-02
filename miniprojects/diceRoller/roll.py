@@ -14,6 +14,7 @@ import sys
 program_name = sys.argv[0]
 arguments = sys.argv[1:]
 
+# zero use change to test a thing
 for arg in arguments:
     total = 0
     numberList = []
